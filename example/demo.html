@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vConsole/Demo1</title>
+  <link href="./lib/weui.min.css" rel="stylesheet"/>
+  <link href="./lib/demo.css" rel="stylesheet"/>
+  <link href="./css/a.css" rel="stylesheet"/>
+  <link href="./css/b.css" rel="stylesheet"/>
+  <script src="./js/a.js"></script>
+  <link href="./css/c.css" rel="stylesheet"/>
+
+  <script src="./lib/zepto.min.js"></script>
+  <script src="./lib/zepto.touch.min.js"></script>
+
+  <!-- 引入vConsole的JS库 -->
+  <script src="../dist/vconsole.min.js"></script>
+  <script src="../dist/vconsole-sources.min.js"></script>
+  
+  <script src="./js/b.js"></script>
+  <script></script>
+  <script src="./js/c.js"></script>
+</head>
+<body ontouchstart>
+  <div class="page">
+    <h1 class="page_title">Demo</h1>
+    <div class="weui_text_area">
+      <p class="weui_msg_desc">点击右下角vConsole按钮，查看Source面板阅读页面引用的样式脚本内容</p>
+    </div>
+  </div>
+</body>
+
+<script>
+console.info('点击Source菜单查看资源内容');
+</script>
+</html>

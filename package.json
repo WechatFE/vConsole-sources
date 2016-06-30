@@ -1,0 +1,43 @@
+{
+  "name": "vconsole-source",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/WechatFE/vConsole-source",
+  "main": "dist/vconsole-sources.min.js",
+  "scripts": {
+    "test": "mocha",
+    "dist": "npm run copy:vconsole && webpack && npm test",
+    "copy:vconsole": "cp node_modules/vconsole/dist/vconsole.min.js dist/vconsole.min.js"
+  },
+  "keywords": [
+    "console",
+    "vconsole",
+    "source"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WechatFE/vConsole-source.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-3": "^6.5.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "jsdom": "^9.2.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.3",
+    "mocha": "^2.5.3",
+    "style-loader": "^0.13.1",
+    "vconsole": "^2.0.2",
+    "webpack": "~1.12.11"
+  },
+  "author": "WechatFE Team",
+  "license": "MIT"
+}
