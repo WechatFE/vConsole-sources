@@ -1,8 +1,8 @@
 {
-  "name": "vconsole-source",
+  "name": "vconsole-sources",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/WechatFE/vConsole-source",
+  "description": "vConsole-source\r ==============================\r [![npm version](https://badge.fury.io/js/vconsole-source.svg)](https://badge.fury.io/js/vconsole-source)",
+  "homepage": "https://github.com/WechatFE/vConsole-sources",
   "main": "dist/vconsole-sources.min.js",
   "scripts": {
     "test": "mocha",
@@ -12,11 +12,11 @@
   "keywords": [
     "console",
     "vconsole",
-    "source"
+    "sources"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WechatFE/vConsole-source.git"
+    "url": "git+https://github.com/WechatFE/vConsole-sources.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -39,5 +39,11 @@
     "webpack": "~1.12.11"
   },
   "author": "WechatFE Team",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WechatFE/vConsole-sources/issues"
+  },
+  "directories": {
+    "example": "example"
+  }
 }
