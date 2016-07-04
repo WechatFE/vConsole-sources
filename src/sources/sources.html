@@ -4,7 +4,7 @@
 	</div>
 	<div class="vc-sources-left-panel">
 	  <ul>
-	    {{for (var i = 0, len = resUrls.length; i < len; i++)}}
+	    {{for(var i in resUrls)}}
 	    	<li><a data-idx="{{i}}" class="vc-sources-file vc-sources-type-{{resUrls[i].type}}" href="javascript:void(0);">{{resUrls[i].filename}}</a></li>
 	    {{/for}}
 	  </ul>

@@ -17,7 +17,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.html$/, loader: 'html'
+        test: /\.html$/, loader: 'html?attrs=false'
       },
       { 
         test: /\.js$/, loader: 'babel'
@@ -35,12 +35,11 @@ module.exports = {
         'Copyright ' + new Date().getFullYear() + ', ' + pkg.author,
         pkg.license +' license'
     ].join('\n'))
-    /*
     ,new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
       }
-    })*/
+    })
     // ,new ExtractTextPlugin('[name].min.css') // 将css独立打包
   ]
 

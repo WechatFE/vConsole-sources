@@ -20,7 +20,7 @@ class VConsoleSourcesTab extends vConsole.VConsolePlugin {
       $.removeClass($.all('.vc-sources-file', $dom), "actived");
       $.addClass(this, "actived");
       let idx = this.dataset.idx*1, res = resUrls[idx];
-
+ 
       if (!!res){
         $.one(".vc-sources-url", $dom).innerText = res.url;
         if (res.content){
@@ -107,16 +107,5 @@ class VConsoleSourcesTab extends vConsole.VConsolePlugin {
     }
   }
 }
-
-/*
-var sourcePlugin = new vConsole.VConsolePlugin('vconsole-source', 'Source');
-
-sourcePlugin.on('renderTab', function(callback) {
-  var html = '<div>Click the tool button below!</div>';
-  callback(html);
-});
-
-vConsole.addPlugin(sourcePlugin);
-*/
 
 vConsole.addPlugin(new VConsoleSourcesTab('vconsole-source', 'Source'));
