@@ -40,8 +40,10 @@ class VConsoleSourcesTab extends vConsole.VConsolePlugin {
     var resList = [];
 
     resList.push({url:location.href, filename:VConsoleSourcesTab.getFileName(location.href), type:"html", content:document.getElementsByTagName("html")[0].innerHTML});
+    
     var otherRes = $.all('link[rel="stylesheet"],script[src]');
-    for (let res of otherRes) {
+    for (let i = 0; i < otherRes.length; ++i) {
+      let res = otherRes[i];
       let url = "";
       let filename = "";
       let type = "unknow";
