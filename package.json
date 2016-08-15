@@ -1,6 +1,6 @@
 {
   "name": "vconsole-sources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vConsole-source\r ==============================\r [![npm version](https://badge.fury.io/js/vconsole-source.svg)](https://badge.fury.io/js/vconsole-source)",
   "homepage": "https://github.com/WechatFE/vConsole-sources",
   "main": "dist/vconsole-sources.min.js",
@@ -35,7 +35,7 @@
     "less-loader": "^2.2.3",
     "mocha": "^2.5.3",
     "style-loader": "^0.13.1",
-    "vconsole": "^2.0.2",
+    "vconsole": "^2.3.0",
     "webpack": "~1.12.11"
   },
   "author": "WechatFE Team",
